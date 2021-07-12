@@ -19,9 +19,14 @@ header {
   background-size: 1500px;
 }
 
+#cliffs header {
+  background: no-repeat lightgray url(images/forest_cliff.jpeg);
+  background-size: 1500px;
+}
+
 .main-header {
   background-color: rgb(255, 255, 255, 0.8);
-  width: 700px;
+  width: 100%;
   margin: 2em auto 0 auto;
   min-height: 100px;
   height: 100px;
@@ -247,4 +252,38 @@ fieldset {
 
 .button {
   padding-left: 42%;
+}
+
+/* Cliff Stylings */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding: 2% 10% 2% 10%;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.column img,
+.caption {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  height: 50px;
+  color: black;
+  background: lime;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.7;
 }
