@@ -237,7 +237,7 @@ input[type="submit"] {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #008cba;
+  /* background-color: #008cba; */
 }
 
 legend {
@@ -299,4 +299,22 @@ fieldset {
     rgba(237, 193, 115, 1) 0%,
     rgba(24, 189, 242, 1) 100%
   );
+}
+
+.randomcode {
+  display: -webkit-box;
+  padding-left: 30.3%;
+}
+
+.randomcode input {
+  margin-right: 12px;
+}
+
+.randomcode #codes {
+  margin: 0 20px 0 0;
+  width: 100px;
+  height: 20px;
+  padding-left: 13px;
+  border: 1px;
+  background-color: lightgray; 
 }
