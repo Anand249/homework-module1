@@ -1,9 +1,9 @@
-function generateCode() {
-  var code = " "; //Initialization to null value
-  var getCode = " ";
-  var btnValue;
-  var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$";
+var code = " "; //Initialization to null value
+var getCode = " ";
+var btnValue;
+var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$";
 
+function generateCode() {
   //Generate character multiple times using a loop
   for (i = 1; i <= 8; i++) {
     var char = Math.random() * str.length;
@@ -30,11 +30,9 @@ function disableButton(btnValue) {
 }
 
 var codebox = document.getElementById("codeentered");
-console.log("I am Here", codebox);
 codebox.addEventListener("input", evaluateCode);
 
 function evaluateCode() {
-  console.log("INNNNNNN");
   getCode = document.getElementById("codeentered").value;
   var charset1 = getCode.trim();
   var charset2 = code.trim();
