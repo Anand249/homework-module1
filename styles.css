@@ -316,5 +316,13 @@ fieldset {
   height: 20px;
   padding-left: 13px;
   border: 1px;
-  background-color: lightgray; 
+  background-color: lightgray;
+}
+
+.a {
+  background-color: #a0c92c;
+}
+
+.b {
+  background-color: #eeffe6;
 }
